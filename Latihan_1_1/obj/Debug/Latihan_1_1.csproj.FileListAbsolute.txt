@@ -1,0 +1,3 @@
+D:\LAIKHOMAN\OOP_C#\Senin_141113121_Laikhoman\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\LAIKHOMAN\OOP_C#\Senin_141113121_Laikhoman\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\LAIKHOMAN\OOP_C#\Senin_141113121_Laikhoman\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
