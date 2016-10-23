@@ -15,7 +15,6 @@ namespace Latihan_3_1
         public Form1()
         {
             InitializeComponent();
-            //fontDialog1.ShowDialog();
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -33,174 +32,65 @@ namespace Latihan_3_1
         }
         private void Bold_Click(object sender, EventArgs e)
         {
-            Font New,Choosed;
-            Choosed = richTextBox1.SelectionFont;
-            /*
-            if (Choosed.Bold)
+            System.Drawing.Font choosed = richTextBox1.SelectionFont;
+            System.Drawing.FontStyle currentFont = FontStyle.Regular;
+            if (richTextBox1.SelectionFont.Italic == true && richTextBox1.SelectionFont.Underline == true)
+                currentFont = FontStyle.Italic | FontStyle.Underline;
+            else if (richTextBox1.SelectionFont.Italic == true)
+                currentFont = FontStyle.Italic;
+            else if (richTextBox1.SelectionFont.Underline == true)
+                currentFont = FontStyle.Underline;
+
+            if (richTextBox1.SelectionFont.Bold != true)
             {
-               New = new Font(Choosed, Choosed.Style & ~FontStyle.Bold);
-               BoldBtn.Checked = false;
+                currentFont |= FontStyle.Bold;
+                BoldBtn.BackColor = System.Drawing.SystemColors.ButtonShadow;
             }
             else
-            {
-               New = new Font(Choosed, Choosed.Style | FontStyle.Bold);
-               BoldBtn.Checked = true;
-            }
-            */
-            if (Choosed.Bold == false)
-            {
-                if (Choosed.Italic == true && Choosed.Underline == false)
-                {
-                    New = new Font(Choosed, FontStyle.Bold | FontStyle.Italic);
-                }
-                else if (Choosed.Italic == false && Choosed.Underline == true)
-                {
-                    New = new Font(Choosed, FontStyle.Bold | FontStyle.Underline);
-                }
-                else if (Choosed.Italic == true && Choosed.Underline == true)
-                {
-                    New = new Font(Choosed, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline);
-                }
-                else
-                {
-                    New = new Font(Choosed, FontStyle.Bold);
-                }
-            }
-            else
-            {
-                if (Choosed.Italic == true && Choosed.Underline == false)
-                {
-                    New = new Font(Choosed, FontStyle.Italic);
-                }
-                else if (Choosed.Italic == false && Choosed.Underline == true)
-                {
-                    New = new Font(Choosed, FontStyle.Underline);
-                }
-                else if (Choosed.Italic == true && Choosed.Underline == true)
-                {
-                    New = new Font(Choosed, FontStyle.Italic | FontStyle.Underline);
-                }
-                else
-                {
-                    New = new Font(Choosed, FontStyle.Regular);
-                }
-            }
-            richTextBox1.SelectionFont = New;
-            
+                BoldBtn.BackColor = System.Drawing.Color.Transparent;
+            richTextBox1.SelectionFont = new Font(choosed.FontFamily, choosed.Size, currentFont);
         }
 
         private void Italic_Click(object sender, EventArgs e)
         {
-            Font New, Choosed;
-            Choosed = richTextBox1.SelectionFont;
-            /*
-            if (Choosed.Italic)
+            System.Drawing.Font choosed = richTextBox1.SelectionFont;
+            System.Drawing.FontStyle currentFont = FontStyle.Regular;
+            if (richTextBox1.SelectionFont.Bold == true && richTextBox1.SelectionFont.Underline == true)
+                currentFont = FontStyle.Bold | FontStyle.Underline;
+            else if (richTextBox1.SelectionFont.Bold == true)
+                currentFont = FontStyle.Bold;
+            else if (richTextBox1.SelectionFont.Underline == true)
+                currentFont = FontStyle.Underline;
+
+            if (richTextBox1.SelectionFont.Italic != true)
             {
-                New = new Font(Choosed, Choosed.Style & ~FontStyle.Italic);
-                ItalicBtn.Checked = false;
+                currentFont |= FontStyle.Italic;
+                ItalicBtn.BackColor = System.Drawing.SystemColors.ButtonShadow;
             }
             else
-            {
-                New = new Font(Choosed, Choosed.Style | FontStyle.Italic);
-                ItalicBtn.Checked = true;
-            }
-            */
-            if (Choosed.Italic == false)
-            {
-                if (Choosed.Bold == true && Choosed.Underline == false)
-                {
-                    New = new Font(Choosed, FontStyle.Bold | FontStyle.Italic);
-                }
-                else if (Choosed.Bold == false && Choosed.Underline == true)
-                {
-                    New = new Font(Choosed, FontStyle.Italic | FontStyle.Underline);
-                }
-                else if (Choosed.Bold == true && Choosed.Underline == true)
-                {
-                    New = new Font(Choosed, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline);
-                }
-                else
-                {
-                    New = new Font(Choosed, FontStyle.Italic);
-                }
-            }
-            else
-            {
-                if (Choosed.Bold == true && Choosed.Underline == false)
-                {
-                    New = new Font(Choosed, FontStyle.Bold);
-                }
-                else if (Choosed.Bold == false && Choosed.Underline == true)
-                {
-                    New = new Font(Choosed, FontStyle.Underline);
-                }
-                else if (Choosed.Bold == true && Choosed.Underline == true)
-                {
-                    New = new Font(Choosed, FontStyle.Bold | FontStyle.Underline);
-                }
-                else
-                {
-                    New = new Font(Choosed, FontStyle.Regular);
-                }
-            }
-            richTextBox1.SelectionFont = New;
+                ItalicBtn.BackColor = System.Drawing.Color.Transparent;
+            richTextBox1.SelectionFont = new Font(choosed.FontFamily, choosed.Size, currentFont);
         }
 
         private void Underline_Click(object sender, EventArgs e)
         {
-            Font New, Choosed;
-            Choosed = richTextBox1.SelectionFont;
-            /*
-            if (Choosed.Underline)
+            System.Drawing.Font choosed = richTextBox1.SelectionFont;
+            System.Drawing.FontStyle currentFont = FontStyle.Regular;
+            if (richTextBox1.SelectionFont.Bold == true && richTextBox1.SelectionFont.Italic == true)
+                currentFont = FontStyle.Bold | FontStyle.Italic;
+            else if (richTextBox1.SelectionFont.Bold == true)
+                currentFont = FontStyle.Bold;
+            else if (richTextBox1.SelectionFont.Italic == true)
+                currentFont = FontStyle.Italic;
+
+            if (richTextBox1.SelectionFont.Underline != true)
             {
-                New = new Font(Choosed, Choosed.Style & ~FontStyle.Underline);
-                UnderlineBtn.Checked = false;
+                currentFont |= FontStyle.Underline;
+                UnderlineBtn.BackColor = System.Drawing.SystemColors.ButtonShadow;
             }
             else
-            {
-                New = new Font(Choosed, Choosed.Style | FontStyle.Underline);
-                UnderlineBtn.Checked = true;
-            }
-            */
-            if (Choosed.Underline == false)
-            {
-                if (Choosed.Bold == true && Choosed.Italic == false)
-                {
-                    New = new Font(Choosed, FontStyle.Bold | FontStyle.Underline);
-                }
-                else if (Choosed.Bold == false && Choosed.Italic == true)
-                {
-                    New = new Font(Choosed, FontStyle.Italic | FontStyle.Underline);
-                }
-                else if (Choosed.Bold == true && Choosed.Italic == true)
-                {
-                    New = new Font(Choosed, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline);
-                }
-                else
-                {
-                    New = new Font(Choosed, FontStyle.Underline);
-                }
-            }
-            else
-            {
-                if (Choosed.Bold == true && Choosed.Italic == false)
-                {
-                    New = new Font(Choosed, FontStyle.Bold);
-                }
-                else if (Choosed.Bold == false && Choosed.Italic == true)
-                {
-                    New = new Font(Choosed, FontStyle.Italic);
-                }
-                else if (Choosed.Bold == true && Choosed.Italic == true)
-                {
-                    New = new Font(Choosed, FontStyle.Bold | FontStyle.Italic);
-                }
-                else
-                {
-                    New = new Font(Choosed, FontStyle.Regular);
-                }
-            }
-            richTextBox1.SelectionFont = New;
+                UnderlineBtn.BackColor = System.Drawing.Color.Transparent;
+            richTextBox1.SelectionFont = new Font(choosed.FontFamily, choosed.Size, currentFont);
         }
 
         private void ColorBtn_Click(object sender, EventArgs e)
@@ -217,8 +107,10 @@ namespace Latihan_3_1
 
         private void FontFamilyCB_SelectedIndexChanged(object sender, EventArgs e)
         {
-            richTextBox1.SelectionFont = new Font(FontFamilyCB.SelectedItem.ToString(),richTextBox1.SelectionFont.Size);
+            richTextBox1.SelectionFont = new Font(FontFamilyCB.SelectedItem.ToString(), richTextBox1.SelectionFont.Size);
         }
+
+
 
 
 

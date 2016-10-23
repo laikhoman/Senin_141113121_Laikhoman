@@ -7,3 +7,12 @@ D:\LAIKHOMAN\OOP_C#\Senin_141113121_Laikhoman\Latihan_2_1\obj\Debug\Latihan_2_1.
 D:\LAIKHOMAN\OOP_C#\Senin_141113121_Laikhoman\Latihan_2_1\obj\Debug\Latihan_2_1.csproj.GenerateResource.Cache
 D:\LAIKHOMAN\OOP_C#\Senin_141113121_Laikhoman\Latihan_2_1\obj\Debug\Latihan_2_1.exe
 D:\LAIKHOMAN\OOP_C#\Senin_141113121_Laikhoman\Latihan_2_1\obj\Debug\Latihan_2_1.pdb
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_2_1\bin\Debug\Latihan_2_1.exe.config
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_2_1\obj\Debug\Latihan_2_1.exe
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_2_1\obj\Debug\Latihan_2_1.pdb
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_2_1\bin\Debug\Latihan_2_1.exe
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_2_1\bin\Debug\Latihan_2_1.pdb
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_2_1\obj\Debug\Latihan_2_1.csprojResolveAssemblyReference.cache
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_2_1\obj\Debug\Latihan_2_1.Form1.resources
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_2_1\obj\Debug\Latihan_2_1.Properties.Resources.resources
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_2_1\obj\Debug\Latihan_2_1.csproj.GenerateResource.Cache

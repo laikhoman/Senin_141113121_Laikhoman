@@ -156,6 +156,7 @@
             this.Controls.Add(this.domainUpDown1);
             this.Controls.Add(this.monthCalendar1);
             this.Name = "Form1";
+
             this.ResumeLayout(false);
             this.PerformLayout();
 

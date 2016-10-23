@@ -92,5 +92,6 @@ namespace Latihan_2_1
             int tgl = monthCalendar1.SelectionStart.Day;
             monthCalendar1.RemoveAnnuallyBoldedDate(new DateTime(tahun, bulan, tgl));
         }
+
     }
 }
