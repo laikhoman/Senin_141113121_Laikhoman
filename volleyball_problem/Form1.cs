@@ -84,12 +84,12 @@ namespace volleyball_problem
                     long sum = a + b;
                     if (a > b)
                     {
-                        combi = modBinomial(sum-48-2, b-24, 1000000007);
+                        combi = modBinomial(sum-48, b-24, 1000000007);
                         combi *= combi24;
                     }
                     else
                     {
-                        combi = modBinomial(sum-48-2, a-24, 1000000007);
+                        combi = modBinomial(sum-48, a-24, 1000000007);
                         combi *= combi24;
                     }
                     if (combi > 1000000007)
