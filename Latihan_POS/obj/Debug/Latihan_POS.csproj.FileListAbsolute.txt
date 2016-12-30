@@ -1,0 +1,13 @@
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_POS\bin\Debug\Latihan_POS.exe.config
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_POS\obj\Debug\Latihan_POS.csprojResolveAssemblyReference.cache
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_POS\obj\Debug\Latihan_POS.Form1.resources
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_POS\obj\Debug\Latihan_POS.Properties.Resources.resources
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_POS\obj\Debug\Latihan_POS.csproj.GenerateResource.Cache
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_POS\bin\Debug\Latihan_POS.exe
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_POS\bin\Debug\Latihan_POS.pdb
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_POS\obj\Debug\Latihan_POS.exe
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_POS\obj\Debug\Latihan_POS.pdb
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_POS\obj\Debug\Latihan_POS.Barang.resources
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_POS\obj\Debug\Latihan_POS.Customer.resources
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_POS\obj\Debug\Latihan_POS.Pembayaran.resources
+D:\LAIKHOMAN\semester5\.NET Lanjutan\Latihan\Latihan_POS\obj\Debug\Latihan_POS.Supplier.resources
